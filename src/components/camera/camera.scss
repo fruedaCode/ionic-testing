@@ -1,0 +1,24 @@
+camera {
+  .camera-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .licensePlate {
+      height: 10%;
+      width: 90%;
+      border-radius: 5px;
+      border: 3px solid grey;
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+ion-app.md {
+  background-color: transparent;
+}
